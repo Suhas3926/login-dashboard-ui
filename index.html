@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div id="loginPage">
+  <h2>Login</h2>
+  <input type="text" id="username" placeholder="Enter username">
+  <br><br>
+  <button onclick="login()">Login</button>
+</div>
+
+<div id="dashboardPage" style="display:none;">
+  <h1 id="welcome"></h1>
+
+  <div class="cards">
+    <div class="card">👤 Users <br>120</div>
+    <div class="card">💰 Revenue <br>$500</div>
+    <div class="card">📦 Orders <br>75</div>
+  </div>
+
+  <br>
+  <button onclick="logout()">Logout</button>
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
